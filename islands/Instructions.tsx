@@ -37,7 +37,7 @@ export default function Instructions() {
             <li>You can remove cards by clicking the <strong>Remove</strong> button</li>
             <li>Use the <strong>Save</strong> button to store your deck in your browser</li>
             <li>Use the <strong>Copy List</strong> button to get a simple list format of your deck</li>
-            <li>Use the <strong>Copy Details</strong> button to get detailed information about all cards</li>
+            <li>Use the <strong>Export</strong> button to get detailed information about all cards</li>
           </ol>
           
           <h3 class="text-lg font-bold mt-4 mb-2">Deck Building Rules</h3>
