@@ -21,6 +21,7 @@ export default function Instructions() {
           <h3 class="text-lg font-bold mb-2">Option 1: Import a Deck from LimitlessTCG</h3>
           <ol class="list-decimal pl-6 mb-4 space-y-2">
             <li>Build your deck at <a href="https://my.limitlesstcg.com/builder" target="_blank" class="text-blue-600 underline hover:text-blue-800">LimitlessTCG Builder</a></li>
+            <li>Make sure the <strong>Game</strong> is set to <strong>Pokemon TCG Pocket</strong></li>
             <li>Click the "<strong>Share</strong>" button in LimitlessTCG</li>
             <li>Select "<strong>Copy as text</strong>" to copy the deck list</li>
             <li>Paste the copied text into the <strong>Import Deck List</strong> box below</li>
