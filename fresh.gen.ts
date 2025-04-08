@@ -7,9 +7,11 @@ import * as $_app from "./routes/_app.tsx";
 import * as $api_card_setId_cardId_ from "./routes/api/card/[setId]/[cardId].ts";
 import * as $api_joke from "./routes/api/joke.ts";
 import * as $api_search from "./routes/api/search.ts";
+import * as $browse from "./routes/browse.tsx";
 import * as $card_setId_cardId_ from "./routes/card/[setId]/[cardId].tsx";
 import * as $greet_name_ from "./routes/greet/[name].tsx";
 import * as $index from "./routes/index.tsx";
+import * as $CardBrowser from "./islands/CardBrowser.tsx";
 import * as $Counter from "./islands/Counter.tsx";
 import * as $DeckBuilder from "./islands/DeckBuilder.tsx";
 import * as $DeckListImporter from "./islands/DeckListImporter.tsx";
@@ -23,11 +25,13 @@ const manifest = {
     "./routes/api/card/[setId]/[cardId].ts": $api_card_setId_cardId_,
     "./routes/api/joke.ts": $api_joke,
     "./routes/api/search.ts": $api_search,
+    "./routes/browse.tsx": $browse,
     "./routes/card/[setId]/[cardId].tsx": $card_setId_cardId_,
     "./routes/greet/[name].tsx": $greet_name_,
     "./routes/index.tsx": $index,
   },
   islands: {
+    "./islands/CardBrowser.tsx": $CardBrowser,
     "./islands/Counter.tsx": $Counter,
     "./islands/DeckBuilder.tsx": $DeckBuilder,
     "./islands/DeckListImporter.tsx": $DeckListImporter,
