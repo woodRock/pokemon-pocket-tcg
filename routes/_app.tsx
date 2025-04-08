@@ -10,7 +10,7 @@ export default function App({ Component }: PageProps) {
         <title>Pokémon Pocket TCG</title>
         <link rel="stylesheet" href="/styles.css" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" />
-        <link rel="icon" type="image/png" href="/favicon.png" />
+        <link rel="icon" type="image/png" href="/favicon.svg" />
         <meta name="description" content="Build, analyze, and share your Pokémon Pocket TCG decks" />
       </head>
       <body class="min-h-screen bg-gradient-to-br from-blue-50 via-white to-yellow-50 font-sans antialiased">
